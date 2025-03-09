@@ -10,7 +10,7 @@ export default function Results() {
 
   return (
     <section className="py-16 bg-green-50">
-      <div className="container mx-auto px-16">
+      <div className="container mx-auto px-4 md:px-16">
         <h2 className="text-3xl font-bold mb-8 text-center text-green-800">
           Livre-se das Dores e Redescubra o Prazer de se Mover
         </h2>
@@ -33,7 +33,7 @@ export default function Results() {
         </div>
         <div className="text-center">
           <Button
-            className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-16 rounded-full shadow-lg transition duration-300"
+            className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 md:px-16 rounded-full shadow-lg transition duration-300"
             onClick={handleWhatsAppRequest}
           >
             Descubra como podemos ajudar você!

@@ -3,7 +3,7 @@ import { Clock, MapPin, Phone } from "lucide-react";
 export default function Location() {
   return (
     <section className="py-16 bg-green-50">
-      <div className="container mx-auto px-16">
+      <div className="container mx-auto px-4 md:px-16">
         <h2 className="text-3xl font-bold mb-8 text-center text-green-800">
           Estamos em Aveiro, Perto de Você
         </h2>

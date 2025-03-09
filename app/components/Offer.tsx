@@ -20,7 +20,7 @@ export default function Offer() {
 
   return (
     <section className="py-16 bg-green-700 text-white">
-      <div className="container mx-auto px-16 text-center">
+      <div className="container mx-auto px-4 md:px-16 text-center">
         <h2 className="text-3xl font-bold mb-8 green-500">
           Avaliação Gratuita: Apenas Para os Primeiros 20 Agendamentos
         </h2>
@@ -34,7 +34,7 @@ export default function Offer() {
         </div>
         <Button
           onClick={handleWhatsAppRequest}
-          className="bg-white text-green-700 hover:bg-green-100 font-bold py-3 px-16 rounded-full shadow-lg transition duration-8000 animate-pulse"
+          className="bg-white text-green-700 hover:bg-green-100 font-bold px-4 md:px-16 rounded-full shadow-lg transition duration-8000 animate-pulse"
         >
           Reserve sua Avaliação Agora!
         </Button>

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Diagnosis() {
   return (
     <section className="py-16 bg-green-50">
-      <div className="container mx-auto px-16">
+      <div className="container mx-auto px-4 md:px-16">
         <h2 className="text-3xl font-bold mb-8 text-center text-green-800">
           A Solução Começa com um Diagnóstico Preciso
         </h2>

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Authority() {
   return (
     <section className="py-16 bg-white">
-      <div className="container mx-auto px-16">
+      <div className="container mx-auto px-4 md:px-16">
         <h2 className="text-3xl font-bold mb-8 text-center text-green-800">
           Por Que Escolher Evandro Tomelin?
         </h2>
@@ -24,7 +24,7 @@ export default function Authority() {
               individualizado, Evandro é reconhecido como referência em
               fisioterapia postural na região de Aveiro.
             </p>
-            {/* TODO - pedir a orde, dps fisioterapeutas de portugal */}
+            {/* TODO - pedir a ordem, dps fisioterapeutas de portugal */}
             {/*  */}
             {/* <div className="flex items-center mb-4">
               <Image

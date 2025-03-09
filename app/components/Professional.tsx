@@ -6,7 +6,7 @@ export default function Professional() {
 
   return (
     <section className="py-16 bg-white">
-      <div className="container mx-auto px-16">
+      <div className="container mx-auto px-4 md:px-16">
         <h2 className="text-3xl font-bold mb-8 text-center text-green-800">
           Evandro Tomelin: Fisioterapeuta Reconhecido
         </h2>

@@ -9,7 +9,7 @@ export default function Hero() {
 
   return (
     <section className="relative h-screen flex items-center justify-center bg-gradient-to-b from-green-100 to-white">
-      <div className="container mx-auto px-16 text-center">
+      <div className="container mx-auto px-4 md:px-16 text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 text-green-800">
           Bem-estar em Movimento: Redescubra sua Qualidade de Vida
         </h1>
@@ -19,7 +19,7 @@ export default function Hero() {
         </h2>
         <Button
           onClick={handleWhatsAppRequest}
-          className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-16 rounded-full shadow-lg transition duration-300"
+          className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 md:px-16 rounded-full shadow-lg transition duration-300"
         >
           Marque sua Avaliação Agora!
         </Button>
