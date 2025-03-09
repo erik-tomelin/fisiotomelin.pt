@@ -1,10 +1,16 @@
+'use client';
 import { Button } from "@/components/ui/button";
+import { whatsAppRedirection } from "@/lib/utils";
 import { CheckCircle } from "lucide-react";
 
 export default function Results() {
+  const handleWhatsAppRequest = async () => {
+    window.location.href = await whatsAppRedirection();
+  };
+
   return (
     <section className="py-16 bg-green-50">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-16">
         <h2 className="text-3xl font-bold mb-8 text-center text-green-800">
           Livre-se das Dores e Redescubra o Prazer de se Mover
         </h2>
@@ -26,7 +32,10 @@ export default function Results() {
           ))}
         </div>
         <div className="text-center">
-          <Button className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300">
+          <Button
+            className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-16 rounded-full shadow-lg transition duration-300"
+            onClick={handleWhatsAppRequest}
+          >
             Descubra como podemos ajudar você!
           </Button>
         </div>

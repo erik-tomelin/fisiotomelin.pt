@@ -6,7 +6,7 @@ import { Lock } from "lucide-react";
 export default function AppointmentForm() {
   return (
     <section className="py-16 bg-white">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-16">
         <h2 className="text-3xl font-bold mb-8 text-center text-green-800">
           Preencha e Comece Sua Transformação
         </h2>
@@ -26,7 +26,7 @@ export default function AppointmentForm() {
               rows={4}
             />
           </div>
-          <Button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300">
+          <Button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-16 rounded-full shadow-lg transition duration-300">
             Agendar Avaliação
           </Button>
         </form>

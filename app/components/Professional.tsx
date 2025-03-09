@@ -1,23 +1,26 @@
+import { IconLookup } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-
 export default function Professional() {
+  const icon: IconLookup = { prefix: "fas", iconName: "award-simple" };
+
   return (
     <section className="py-16 bg-white">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-16">
         <h2 className="text-3xl font-bold mb-8 text-center text-green-800">
           Evandro Tomelin: Fisioterapeuta Reconhecido
         </h2>
         <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2 mb-8 md:mb-0">
+          <div className="lg:w-1/4 mb-8 md:mb-0">
             <Image
               src="/evandro-profile.jpg"
               alt="Evandro Tomelin"
               width={400}
               height={400}
-              className="rounded-lg shadow-lg"
+              className="rounded-xl shadow-lg"
             />
           </div>
-          <div className="md:w-1/2 md:pl-8">
+          <div className="lg:w-1/2 md:pl-8">
             <p className="text-lg mb-6">
               Evandro Tomelin combina conhecimento técnico, atendimento
               humanizado e métodos personalizados para aliviar dores e melhorar
@@ -38,12 +41,7 @@ export default function Professional() {
               </li>
             </ul>
             <div className="mt-6">
-              <Image
-                src="/certified-seal.png"
-                alt="Fisioterapeuta Certificado"
-                width={100}
-                height={100}
-              />
+              <FontAwesomeIcon icon={icon} />
             </div>
           </div>
         </div>
